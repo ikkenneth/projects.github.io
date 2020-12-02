@@ -1,0 +1,129 @@
+body{
+    line-height: 1.8em;
+}
+
+
+.navbar{
+
+    border-bottom: 4px solid whitesmoke ;
+}
+
+.nav-item{
+    padding-right: 1em;
+}
+
+.navbar-brand{
+    color: rgba(44, 20, 110, 0.979);
+}
+
+.fas{
+    font-size: 2em;
+    
+}
+
+.para{
+    text-align: justify;
+}
+
+.about-us h3{
+    color: rgb(246, 39, 39);   
+}
+
+.small-screen{
+    display: none;
+}
+
+.footer h4{
+    color: rgb(246, 39, 39);
+}
+
+.footer, .about-us{
+    background: rgb(37, 37, 110);
+    color: white;
+}
+
+.footer .nav-link{
+    color: rgb(246, 39, 39);
+}
+
+.footer .nav-link:hover{
+    color: whitesmoke;
+}
+
+@media(max-width:900px){
+    .navbar{
+        padding-top: 20px !important;
+    
+    }
+
+    .heading{
+        width: 100%;
+    }
+    .navbar .nav-item{
+        display: block !important;
+        width: 100%;
+        padding: 10px 0px;
+        text-align:center;
+    }
+    .about-us, .container{
+        width: 100% !important;
+    }
+
+    .home{
+        padding-top: 0px !important;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .para{
+        text-align: center;
+        padding-right: 0em !important;
+        padding-bottom:10px !important;
+
+    }
+
+    .learn-more{
+        display: none;
+    }
+
+    .news-letter{
+        padding-left: 0px !important;
+        margin-top: 4em;
+        text-align: center;
+    }
+
+    .info{
+        padding-left: 10px;
+    }
+
+    .navbar-toggler-icon{
+        color: black;
+    }
+
+    .web-dev{
+        padding-top: 0px !important;
+    }
+
+    .web-design-img{
+        padding-bottom: 0px !important;
+    }
+
+    .web-design{
+       padding-top: 0px !important; 
+    }
+
+    .digi-mar{
+        padding-top: 2em !important;
+    }
+
+    .large-screen{
+        display: none;
+    }
+
+    .small-screen{
+        display: inline;
+        margin-top:4em;
+    }
+
+
+}
